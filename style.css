@@ -1,0 +1,117 @@
+:root {
+    --color-main: #464655;
+    --color-accent: #5c576b;
+    --color-off-white: #faf8ff;
+    --color-action: #f18f7e;
+    --content-max-width: 800px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {
+    background-color: var(--color-off-white);
+}
+.content {
+    background-color: #FFFFFF;
+    max-width: var(--content-max-width);
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    text-align: center;
+}
+header {
+    background-color: var(--color-main);
+}
+nav {
+    background-color: var(--color-accent);
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111111;
+}
+
+
+.contact-form h2 {
+    text-align: center;
+    color: var(--color-main);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input, label, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea {
+    resize: none;
+}
+label {
+    margin-top: 15px;
+    padding-bottom: 3px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+input[type="text"] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color-action)
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: var(--color-action);
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+.contact-form {
+    background-color: #FFFFFF;
+    max-width: var(--content-max-width);
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+p, h3{
+    padding: 15px;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+}
+
+.article {
+    border-bottom: dotted red 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    padding: 20px;
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+p {
+    font-size: 125%;
+}
